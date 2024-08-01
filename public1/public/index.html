@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Comment Page</h1>
+    <form id="commentForm">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="comment" placeholder="Your comment" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="message"></p>
+    <div id="commentsSection">
+        <h2>Comments</h2>
+        <div id="commentList"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="firebase.js"></script>
+</body>
+</html>
